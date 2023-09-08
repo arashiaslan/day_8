@@ -1,0 +1,22 @@
+# Simple Function
+def greet():
+  print("Assalamualaikum")
+  print("Halo")
+  print("Apa kabar?")
+greet()
+# Function allow input
+def greet_name(name):
+  print(f"Assalamualaikum {name}")
+  print(f"Halo {name}")
+  print(f"Apa kabarmu {name}")
+greet_name("Aqil")
+# Function withmore than 1 input
+def greet_loc(name, location):
+  print(f"Assalamualaikum {name}")
+  print(f"Hari ini, cuaca di daerah {location} sangat panas")
+greet_loc("Aqil", "Solo")
+# Keyword Argument
+def greet_key(nama = "Aqil", lokasi = "Solo"):
+  print(f"Hay {nama}")
+  print(f"Aku di {lokasi}")
+greet_key()
